@@ -40,17 +40,4 @@ public class IOUtil {
 
 	}
 
-	
-	/*public void fileIO8(String inFile, String outFile, int linesToWrite) throws IOException{
-		Path path = Paths.get(outFile);
-		try(Stream<String> data = Files.lines(Paths.get(inFile));
-				BufferedWriter writer = Files.newBufferedWriter(path);
-						
-				){
-			
-			data.forEach(e->{writer.write(e)});
-			
-		}
-		
-	}*/
 }
